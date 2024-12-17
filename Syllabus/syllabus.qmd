@@ -1,0 +1,228 @@
+---
+title: Data Analytics in Finance
+subtitle: FINA 6333 for Spring 2025
+author: Richard Herron
+format:
+  pdf:
+    fontsize: 12pt
+    number-sections: true
+    bibliography: references.bib
+    cite-method: biblatex
+    biblio-style: authoryear
+    biblio-title: References
+---
+
+
+# Instructor Information
+
+| **Email:** <r.herron@northeastern.edu>
+| **Office Location:** Hayden Hall 409C
+| **Office Hours:** MWTh 9-10 AM on [Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjIyNTViNjctMTNkZS00ZjRkLWIyYzUtN2Y4Nzg4ODY2Zjg0%40thread.v2/0?context=%7b%22Tid%22%3a%22a8eec281-aaa3-4dae-ac9b-9a398b9215e7%22%2c%22Oid%22%3a%22cba70d76-fddc-45bd-a422-2527f6c8dc58%22%7d)
+
+
+# Course Description
+
+**FINA 6333. Data Analytics in Finance. (3 Hours)**
+
+Introduces Python and its use as a financial data analytics tool.
+Python has become one of the most widely used open-source, cross-platform programming languages.
+Covers the basics of programming in Python and key libraries (NumPy, Pandas, Matplotlib, etc.) used in data analytics, then focuses on implementing various financial models in Python.
+Topics include single and multifactor portfolio models, portfolio theory and the efficient frontier, algorithmic trading, options and futures, and value at risk.
+
+
+# Course Materials
+
+We will use the following software, textbook, and website.
+
+## Software
+
+We will write and run Python code in Jupyter Notebooks in the JupyterLab web-based integrated development environment (IDE). 
+We will also use Quarto to create high-quality reports from our Jupyter Notebooks.
+Follow these instructions to install Python and Quarto and to create your environment for this course:
+
+1. Download and install the Miniconda distribution of Python: <https://docs.anaconda.com/free/miniconda/>
+2. Download and install Quarto: <https://quarto.org/docs/download/index.html>
+3. Create your environment:
+    a. Open the "Anaconda Prompt" on Windows or the "Terminal" on macOS (you should see "(base)" to the left of your file path, indicating you have installed Python and are using the base or default environment)
+    b. Type and enter: `conda create --name fina6333 --channel conda-forge pandas numpy scipy matplotlib seaborn statsmodels yfinance pandas-datareader jupyterlab`
+    c. Conda will find and offer to install the correct packages for your laptop
+    d. Accept this installation
+4. Use your environment:
+    a. Open the "Anaconda Prompt" on Windows or the "Terminal" on macOS
+    b. Type and enter: `conda activate fina6333 && jupyterlab`
+    c. JupyterLab will open in a new tab in your default web browser
+
+I will record a short walkthrough of this installation and share it on Canvas.
+
+**You must bring your laptop to every class.**
+
+## Textbook
+
+We will use @mckinney2022python as our textbook: <https://wesmckinney.com/book/>
+
+
+## Website
+
+I will maintain a website of our Jupyter Notebooks: TBD
+
+
+# Course Grades
+
+I will assign course grades using the weights in @tbl-grades.
+
+|Category|Weight|
+|---|---|
+|Project 1|31%|
+|Project 2|31%|
+|Project 3|31%|
+|Participation and Professionalism|5%|
+|MSFQ Assessment Exam|2%|
+|Total|100%|
+
+: Course Grade Weights {#tbl-grades} {tbl-colwidths="[90, 10]"}
+
+I will assign letter grades using the following schedule:
+    93.00 and above is an A,
+    90.00 to 92.99 is an A-,
+    87.00 to 89.99 is a B+,
+    83.00 to 86.99 is a B,
+    and so on.
+I will curve course grades up to meet the D'Amore-McKim School of Business (DMSB) guidelines:
+    for graduate courses, no more than 50% of students receive an A or A-;
+    for undergraduate courses, course grade point averages (GPAs) fall between 3.2 and 3.4.
+The DMSB forbids extra credit.
+
+
+## Projects
+
+You will complete three projects in self-selected teams of up to four students.
+You will keep the same teams all semester.
+After each project, you will review your teammates.
+Your median peer-review score will account for one-third of the points on each project.
+
+I will accept late projects but deduct 50 basis points per hour late.
+I will deduct these points at the end of the semester because I can only use this Canvas grade book tool once.
+
+I will provide assignments at least one week before each due date.
+
+
+## Participation and Professionalism
+
+I will grade class participation and professionalism because they help you and your peers learn.
+I will randomly take attendance, but attendance is only a floor on participation and professionalism.
+Here are my minimum expectations:
+
+1. Participation:
+    a. Preparedness: Read assigned materials and be ready to discuss them
+    a. Engagement: Contribute to class discussions
+    a. Group Work: Collaborate with peers during in-class group work
+2. Professionalism:
+    a. Timeliness: Arrive to class on time and stay engaged until the end
+    a. Respect: Actively listen when others speak and do not interrupt
+    a. Communication: Use professional language in class discussions and course communications
+
+I will encourage you to complete small *ad hoc* assignments by assigning them small point values under the participation and professionalism category.
+
+
+## MSFQ Assessment Exam
+
+MSFQ students will take the MSFQ assessment exam, which is essential to accreditation.
+Non-MSFQ students will not take it, and it will not count toward their course grades.
+
+
+# Flipped Classroom, Remote Attendance, and Class Recordings
+
+I will "flip the classroom" this semester, letting us spend more time together practicing exercises.
+
+1. Before class:
+    a. I will record a short lecture and share it on Canvas
+    b. You will read the textbook and watch the lecture
+3. During class: We will quickly review the lecture and practice exercises
+4. After class: You will review your notes and complete projects
+
+I will not allow remote attendance, but I will record lectures and classes.
+Watching these recordings is not a substitute for participation and professionalism.
+
+
+# My Expectations and Recommendations
+
+1. Follow our flipped classroom guidance above.
+2. Spend about eight to ten hours per week studying outside the classroom.
+3. Seek my help:
+    a. If your questions are not personal, please ask them on Canvas Discussions, where everyone can see my answers.
+    a. In-depth questions often require discussions, so I may ask you to see me during office hours to discuss them.
+4. The DMSB forbids extra credit, so I will not respond to emails asking for it.
+
+
+# Academic Honesty
+
+From the Finance Group:
+
+> Northeastern University is committed to the principles of intellectual honesty and integrity. I
+expect that you will not copy the work of others, have others do work for you, or use unauthorized aids beyond what is allowed on assignments, projects, and/or exams. This includes the use of AI programs such as ChatGPT, as well as any in person or electronic collaboration with students inside and outside the classroom. It also includes using calculators not specifically approved by the professor. If in doubt, ask.
+>
+> Any student caught cheating on any assignment, exam, or project will receive 0 points for the assignment and will fail this course. Any student caught cheating will also be reported to the Office of Student Conduct and Conflict Resolution (OSSCR), which will result in a[n] Information Only OSCCR meeting or a full Administrative Hearing, at the discretion of OSSCR.
+> 
+> Additional penalties as prescribed by the University also may apply. If you have any doubts as to the parameters of academic honesty and integrity, please refer to the University’s Academic Integrity Policy: <https://osccr.sites.northeastern.edu/academic-integrity-policy/>
+>
+> You may also wish to refer to the Code of Student Conduct: <https://osccr.sites.northeastern.edu/code-of-student-conduct/>
+
+
+# We Care
+
+From the Dean's Office:
+
+> We Care aids students dealing with a wide range of issues, from academic struggles and financial need to medical and/or personal emergencies. After meeting with a student, the We Care team partners with faculty and staff from across the university who can work directly with a student to:
+>
+> - Identify and assess the challenge
+> - Build a team to determine available options and resources
+> - Support the student as they continue their academic progress
+>
+> We Care provides consultation to students and faculty in situations where academic flexibility may be appropriate. In these instances, it is the course instructor who makes the decision if flexibility is an option and is responsible for defining what, when, and how exceptions to class policies are warranted or implemented.
+>
+> We Care is located in 354 Richards Hall and can be reached by calling 617-373-7591 or by emailing <wecare@northeastern.edu>. The office is open Monday – Friday, 8:30AM to 5:00PM.
+
+
+# Students with Disabilities
+
+Students needing disability accommodations should visit the Northeastern University Disability Access Services (DAS).
+
+
+# Title IX
+
+Title IX of the Education Amendments of 1972 protects individuals from sex or gender-based discrimination, including discrimination based on gender identity, in educational programs and activities that receive federal financial assistance.
+Faculty members are "responsible employees" at Northeastern University, meaning they must report all sex or gender-based discrimination allegations to the Title IX Coordinator.
+
+More on Title IX: <http://www.northeastern.edu/ouec/>
+
+
+# Schedule
+
+@tbl-schedule provides our tentative course schedule.
+We will vote to determine the "Student’s Choice" topics during the first few weeks of class.
+
+|Week|Date|Topic|Project|Note|
+|---|---|---|---|---|
+|1|Jan-06|McKinney Ch 2: Python Language Basics, IPython, and Jupyter Notebooks|||
+|2|Jan-13|McKinney Ch 3: Built-in Data Structures, Functions, and Files|||
+|3|Jan-20|McKinney Ch 4: NumPy Basics|||
+|4|Jan-27|McKinney Ch 5: Getting Started with pandas|||
+|5|Feb-03|McKinney Ch 8: Data Wrangling: Join, Combine, and Reshape|||
+|6|Feb-10|McKinney Ch 10: Data Aggregation and Group Operations|||
+|7|Feb-17|McKinney Ch 11: Time Series|||
+|8|Feb-24|Project Work|1|1|
+|9|Mar-03|Spring Break|||
+|10|Mar-10|Student's Choice|||
+|11|Mar-17|Student's Choice|||
+|12|Mar-24|Project Work|2|2|
+|13|Mar-31|Student's Choice|||
+|14|Apr-07|Student's Choice|||
+|15|Apr-14|MSFQ Assessment Exam and Project Work||3|
+|16|Apr-21|Project Work|3|4|
+
+: Tentative Course Schedule {#tbl-schedule} {tbl-colwidths="[10, 10, 60, 10, 10]"}
+
+| Note 1: Project 1 is due Fri, Feb-28, at 11:59 PM
+| Note 2: Project 2 is due Fri, Mar-28, at 11:59 PM
+| Note 3: The MSFQ Assessment Exam is in class on Tue, Apr-15
+| Note 4: Project 3 is due Wed, Apr-23, at 11:59 PM

@@ -1,0 +1,22 @@
+/Archive
+/Assessment
+/Canvas
+/ChatGPT
+/Grades
+# /Notebooks
+/Notebooks/.ipynb_checkpoints
+/Notebooks/.quarto
+# /Notebooks/_book
+/Notebooks/_site
+/Notebooks/index_files
+/Office\ Hours
+/Participation
+/Projects
+/Scratch
+# /Syllabus
+*.csv
+*.txt
+*.zip
+*.xlsx
+*.sqlite
+*checkpoint.ipynb

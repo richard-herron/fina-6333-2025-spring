@@ -1,0 +1,17 @@
+---
+title: Welcome!
+---
+
+Welcome to FINA 6333 for Spring 2025 at the D'Amore-McKim School of Business at Northeastern University!
+
+For each course topic, we will have one notebook for the pre-recorded lecture and one for the in-class practice exercises.
+I will maintain these notebooks on this website because Canvas does not render notebooks.
+I will maintain everything else on Canvas (e.g., announcements, grades, etc.).
+
+You have three choices to download or run these notebooks:
+
+TODO: Update links
+
+1. Download them from our shared folder on [OneDrive](https://northeastern-my.sharepoint.com/:f:/g/personal/r_herron_northeastern_edu/ElSKCp7KsodKq21d2ydTIL8BIaha56J0VxUm7CxObo-wVA?e=1s8bB8) 
+1. Download them from our Notebooks folder on [GitHub](https://github.com/richard-herron/fina-6333-2024-spring) (or click the octo-cat icon in the left sidebar)
+1. Open them on [Google Colab](http://colab.research.google.com/github/richard-herron/fina-6333-2024-spring/) (or click the Google icon in the left sidebar)

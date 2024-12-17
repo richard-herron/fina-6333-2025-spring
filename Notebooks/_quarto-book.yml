@@ -1,0 +1,68 @@
+project:
+  type: book
+
+format:
+  pdf:
+    fontsize: 12pts
+    fig-dpi: 300
+    toc-depth: 2
+    include-in-header: 
+      text: |
+        \usepackage{scrlayer-scrpage}
+        \automark{chapter}
+
+book:
+  chapters:
+    - index.qmd
+    - part: Week 1
+      chapters: 
+        - mckinney_02_lecture.ipynb
+        - mckinney_02_practice.ipynb
+    - part: Week 2
+      chapters:
+        - mckinney_03_lecture.ipynb
+        - mckinney_03_practice.ipynb
+    - part: Week 3
+      chapters:
+        - mckinney_04_lecture.ipynb
+        - mckinney_04_practice.ipynb
+    - part: Week 4
+      chapters:
+        - mckinney_05_lecture.ipynb
+        - mckinney_05_practice.ipynb
+    - part: Week 5
+      chapters:
+        - mckinney_08_lecture.ipynb
+        - mckinney_08_practice.ipynb
+    - part: Week 6
+      chapters:
+        - mckinney_10_lecture.ipynb
+        - mckinney_10_practice.ipynb
+    - part: Week 7
+      chapters:
+        - mckinney_11_lecture.ipynb
+        - mckinney_11_practice.ipynb
+    - part: Week 8
+      chapters:
+        - project_01.qmd
+    - part: Week 9
+      chapters:
+        - students_choice_01.qmd
+    - part: Week 10
+      chapters:
+        - students_choice_02.qmd
+    - part: Week 11
+      chapters:
+        - project_02.qmd
+    - part: Week 12
+      chapters:
+        - students_choice_03.qmd
+    - part: Week 13
+      chapters:
+        - students_choice_04.qmd
+    - part: Week 14
+      chapters:
+        - assessment_exam.qmd
+    - part: Week 15
+      chapters:
+        - project_03.qmd
