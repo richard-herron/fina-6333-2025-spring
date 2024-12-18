@@ -5,13 +5,16 @@ format:
   pdf:
     fontsize: 12pts
     fig-dpi: 300
-    toc-depth: 2
+    cite-method: biblatex
+    biblio-style: authoryear
+    biblio-title: References
     include-in-header: 
       text: |
         \usepackage{scrlayer-scrpage}
         \automark{chapter}
 
 book:
+  output-file: 'FINA 6333 for Spring 2025'
   chapters:
     - index.qmd
     - part: Week 1

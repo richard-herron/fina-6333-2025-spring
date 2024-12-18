@@ -1,18 +1,3 @@
----
-title: Data Analytics in Finance
-subtitle: FINA 6333 for Spring 2025
-author: Richard Herron
-format:
-  pdf:
-    fontsize: 12pt
-    number-sections: true
-    bibliography: references.bib
-    cite-method: biblatex
-    biblio-style: authoryear
-    biblio-title: References
----
-
-
 # Instructor Information
 
 | **Email:** <r.herron@northeastern.edu>
@@ -132,13 +117,13 @@ Non-MSFQ students will not take it, and it will not count toward their course gr
 
 # Flipped Classroom, Remote Attendance, and Class Recordings
 
-I will "flip the classroom" this semester, letting us spend more time together practicing exercises.
+I will "flip the classroom" this semester, letting us spend more time practicing together.
 
 1. Before class:
     a. I will record a short lecture and share it on Canvas
     b. You will read the textbook and watch the lecture
-3. During class: We will quickly review the lecture and practice exercises
-4. After class: You will review your notes and complete projects
+3. During class: We will practice together after quickly reviewing the lecture
+4. After class: You will review your notes and complete several projects
 
 I will not allow remote attendance, but I will record lectures and classes.
 Watching these recordings is not a substitute for participation and professionalism.

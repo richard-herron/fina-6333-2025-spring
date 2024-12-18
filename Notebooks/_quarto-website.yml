@@ -5,6 +5,7 @@ theme:
   light: flatly
   dark: darkly
 
+
 website:
   sidebar:
     search: true
@@ -19,7 +20,8 @@ website:
     contents:
       - index.qmd
       - section: Week 1
-        contents: "mckinney_02*.ipynb"
+        contents: 
+          - auto: "mckinney_02*.ipynb"
       - section: Week 2
         contents: 
           - auto: "mckinney_03*.ipynb"

@@ -1,0 +1,11 @@
+title: Data Analytics in Finance
+subtitle: FINA 6333 for Spring 2025
+author: Richard Herron
+format:
+  pdf:
+    fontsize: 12pt
+    number-sections: true
+    bibliography: references.bib
+    cite-method: biblatex
+    biblio-style: authoryear
+    biblio-title: References
