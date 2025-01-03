@@ -14,7 +14,7 @@ format:
         \automark{chapter}
 
 book:
-  output-file: 'Notebooks'
+  output-file: 'notebooks'
   chapters:
     - index.qmd
     - part: Week 1
