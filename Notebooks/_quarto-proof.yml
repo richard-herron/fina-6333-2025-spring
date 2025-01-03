@@ -1,0 +1,4 @@
+format:
+  docx:
+    echo: false
+    output: false

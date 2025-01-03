@@ -57,10 +57,11 @@ I will assign course grades using the weights in @tbl-grades.
 
 |Category|Weight|
 |---|---|
-|Project 1|31%|
-|Project 2|31%|
-|Project 3|31%|
-|Participation and Professionalism|5%|
+|Project 1|30%|
+|Project 2|30%|
+|Project 3|30%|
+|Programming Assessment|4%|
+|Participation and Professionalism|4%|
 |MSFQ Assessment Exam|2%|
 |Total|100%|
 
@@ -89,6 +90,14 @@ I will accept late projects but deduct 50 basis points per hour late.
 I will deduct these points at the end of the semester because I can only use this Canvas grade book tool once.
 
 I will provide assignments at least one week before each due date.
+
+
+## Programming Assessment
+
+During the last two weeks of class, I will administer short individual programming assessments to small groups of students.
+To help you prepare, I will provide a list of candidate questions on Python and financial data analytics in advance.
+During the assessment, you will solve a subset of similar questions without collaboration or external assistance.
+I will grade your work based on effort, correctness, and clarity.
 
 
 ## Participation and Professionalism
