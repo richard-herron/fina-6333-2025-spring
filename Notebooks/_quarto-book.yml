@@ -21,6 +21,9 @@ book:
       chapters: 
         - mckinney_02_lecture.ipynb
         - mckinney_02_practice.ipynb
+        - mckinney_02_practice_02.ipynb
+        - mckinney_02_practice_03.ipynb
+        - mckinney_02_practice_04.ipynb
     - part: Week 2
       chapters:
         - mckinney_03_lecture.ipynb
