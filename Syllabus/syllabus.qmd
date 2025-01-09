@@ -48,7 +48,7 @@ We will use @mckinney2022python as our textbook: <https://wesmckinney.com/book/>
 
 ## Website
 
-I will maintain a website of our Jupyter Notebooks: TBD
+I will maintain a website of our Jupyter Notebooks: <https://richard-herron.quarto.pub/fina-6333-2025-spring/>
 
 
 # Course Grades
