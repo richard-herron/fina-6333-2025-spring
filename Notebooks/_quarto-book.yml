@@ -42,6 +42,9 @@ book:
       chapters:
         - mckinney_05_lecture.ipynb
         - mckinney_05_practice.ipynb
+        - mckinney_05_practice_02.ipynb
+        - mckinney_05_practice_03.ipynb
+        - mckinney_05_practice_04.ipynb
     - part: Week 5
       chapters:
         - mckinney_08_lecture.ipynb
