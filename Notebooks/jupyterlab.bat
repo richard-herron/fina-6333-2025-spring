@@ -1,0 +1,1 @@
+conda activate fina6333 && jupyter lab
