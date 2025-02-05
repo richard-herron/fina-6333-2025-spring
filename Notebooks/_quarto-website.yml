@@ -39,7 +39,7 @@ website:
           - auto: "mckinney_10*.ipynb"
       - section: Week 7
         contents: 
-          - auto: "mckinney_10*.ipynb"
+          - auto: "mckinney_11*.ipynb"
       - section: Week 8
         contents:
           - project_01.qmd
