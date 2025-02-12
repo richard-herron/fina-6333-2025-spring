@@ -34,6 +34,7 @@ website:
       - section: Week 5
         contents: 
           - auto: "mckinney_08*.ipynb"
+          - auto: "herron_01*.ipynb"
       - section: Week 6
         contents: 
           - auto: "mckinney_10*.ipynb"

@@ -5,6 +5,7 @@ format:
   pdf:
     fontsize: 12pts
     fig-dpi: 300
+    fig-format: png
     cite-method: biblatex
     biblio-style: authoryear
     biblio-title: References
@@ -52,6 +53,10 @@ book:
         - mckinney_08_practice_02.ipynb
         - mckinney_08_practice_03.ipynb
         - mckinney_08_practice_04.ipynb
+        - herron_01_practice.ipynb
+        - herron_01_practice_02.ipynb
+        - herron_01_practice_03.ipynb
+        - herron_01_practice_04.ipynb
     - part: Week 6
       chapters:
         - mckinney_10_lecture.ipynb
