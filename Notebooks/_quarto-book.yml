@@ -4,8 +4,6 @@ project:
 format:
   pdf:
     fontsize: 12pts
-    fig-dpi: 300
-    fig-format: png
     cite-method: biblatex
     biblio-style: authoryear
     biblio-title: References
@@ -67,10 +65,11 @@ book:
         - mckinney_11_practice.ipynb
     - part: Week 8
       chapters:
-        - project_01.qmd
+        - "../Projects/Project 1/project_1.ipynb"
     - part: Week 9
       chapters:
-        - students_choice_01.qmd
+        - herron_02_lecture.ipynb
+        - herron_02_practice.ipynb
     - part: Week 10
       chapters:
         - students_choice_02.qmd

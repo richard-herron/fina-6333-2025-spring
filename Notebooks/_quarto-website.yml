@@ -43,10 +43,10 @@ website:
           - auto: "mckinney_11*.ipynb"
       - section: Week 8
         contents:
-          - project_01.qmd
+          - "../Projects/Project 1/project_1.ipynb"
       - section: Week 9
         contents: 
-          - students_choice_01.qmd
+          - auto: "herron_02*.ipynb"
       - section: Week 10
         contents: 
           - students_choice_02.qmd
