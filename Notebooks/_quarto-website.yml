@@ -49,7 +49,7 @@ website:
           - auto: "herron_02*.ipynb"
       - section: Week 10
         contents: 
-          - students_choice_02.qmd
+          - auto: "herron_03*.ipynb"
       - section: Week 11
         contents: 
           - project_02.qmd

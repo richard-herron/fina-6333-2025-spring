@@ -70,12 +70,16 @@ book:
       chapters:
         - herron_02_lecture.ipynb
         - herron_02_practice.ipynb
+        - herron_02_practice_02.ipynb
+        - herron_02_practice_03.ipynb
+        - herron_02_practice_04.ipynb
     - part: Week 10
       chapters:
-        - students_choice_02.qmd
+        - herron_03_lecture.ipynb
+        - herron_03_practice.ipynb
     - part: Week 11
       chapters:
-        - project_02.qmd
+        - "../Projects/Project 2/project_2.ipynb"
     - part: Week 12
       chapters:
         - students_choice_03.qmd
