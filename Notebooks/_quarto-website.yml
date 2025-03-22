@@ -52,7 +52,7 @@ website:
           - auto: "herron_03*.ipynb"
       - section: Week 11
         contents: 
-          - project_02.qmd
+          - "../Projects/Project 2/project_2.ipynb"
       - section: Week 12
         contents: 
           - students_choice_03.qmd

@@ -77,6 +77,9 @@ book:
       chapters:
         - herron_03_lecture.ipynb
         - herron_03_practice.ipynb
+        - herron_03_practice_02.ipynb
+        - herron_03_practice_03.ipynb
+        - herron_03_practice_04.ipynb
     - part: Week 11
       chapters:
         - "../Projects/Project 2/project_2.ipynb"
