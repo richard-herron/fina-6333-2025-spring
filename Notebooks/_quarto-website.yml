@@ -55,7 +55,7 @@ website:
           - "../Projects/Project 2/project_2.ipynb"
       - section: Week 12
         contents: 
-          - students_choice_03.qmd
+          - auto: "herron_04*.ipynb"
       - section: Week 13
         contents: 
           - students_choice_04.qmd
