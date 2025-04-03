@@ -1,11 +1,6 @@
 project:
   type: website
 
-theme:
-  light: flatly
-  dark: darkly
-
-
 website:
   sidebar:
     search: true
@@ -43,7 +38,7 @@ website:
           - auto: "mckinney_11*.ipynb"
       - section: Week 8
         contents:
-          - "../Projects/Project 1/project_1.ipynb"
+          - project_1.ipynb
       - section: Week 9
         contents: 
           - auto: "herron_02*.ipynb"
@@ -52,16 +47,16 @@ website:
           - auto: "herron_03*.ipynb"
       - section: Week 11
         contents: 
-          - "../Projects/Project 2/project_2.ipynb"
+          - project_2.ipynb
       - section: Week 12
         contents: 
           - auto: "herron_04*.ipynb"
       - section: Week 13
         contents: 
-          - students_choice_04.qmd
+          - auto: "herron_05*.ipynb"
       - section: Week 14
         contents: 
           - assessment_exam.qmd
       - section: Week 15
         contents: 
-          - project_03.qmd
+          - project_3.ipynb

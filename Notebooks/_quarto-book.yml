@@ -65,7 +65,7 @@ book:
         - mckinney_11_practice.ipynb
     - part: Week 8
       chapters:
-        - "../Projects/Project 1/project_1.ipynb"
+        - project_1.ipynb
     - part: Week 9
       chapters:
         - herron_02_lecture.ipynb
@@ -82,7 +82,7 @@ book:
         - herron_03_practice_04.ipynb
     - part: Week 11
       chapters:
-        - "../Projects/Project 2/project_2.ipynb"
+        - project_2.ipynb
     - part: Week 12
       chapters:
         - herron_04_lecture.ipynb
@@ -92,10 +92,11 @@ book:
         - herron_04_practice_04.ipynb
     - part: Week 13
       chapters:
-        - students_choice_04.qmd
+        - herron_05_lecture.ipynb
+        - herron_05_practice.ipynb
     - part: Week 14
       chapters:
         - assessment_exam.qmd
     - part: Week 15
       chapters:
-        - project_03.qmd
+        - project_3.ipynb
