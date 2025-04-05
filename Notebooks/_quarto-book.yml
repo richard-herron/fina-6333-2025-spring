@@ -65,7 +65,7 @@ book:
         - mckinney_11_practice.ipynb
     - part: Week 8
       chapters:
-        - project_1.ipynb
+        - project_1_no_yaml.ipynb
     - part: Week 9
       chapters:
         - herron_02_lecture.ipynb
@@ -82,7 +82,7 @@ book:
         - herron_03_practice_04.ipynb
     - part: Week 11
       chapters:
-        - project_2.ipynb
+        - project_2_no_yaml.ipynb
     - part: Week 12
       chapters:
         - herron_04_lecture.ipynb
@@ -99,4 +99,4 @@ book:
         - assessment_exam.qmd
     - part: Week 15
       chapters:
-        - project_3.ipynb
+        - project_3_no_yaml.ipynb

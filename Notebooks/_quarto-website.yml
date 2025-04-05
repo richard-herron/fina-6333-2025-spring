@@ -38,7 +38,7 @@ website:
           - auto: "mckinney_11*.ipynb"
       - section: Week 8
         contents:
-          - project_1.ipynb
+           - project_1_no_yaml.ipynb
       - section: Week 9
         contents: 
           - auto: "herron_02*.ipynb"
@@ -47,7 +47,7 @@ website:
           - auto: "herron_03*.ipynb"
       - section: Week 11
         contents: 
-          - project_2.ipynb
+           - project_2_no_yaml.ipynb
       - section: Week 12
         contents: 
           - auto: "herron_04*.ipynb"
@@ -59,4 +59,4 @@ website:
           - assessment_exam.qmd
       - section: Week 15
         contents: 
-          - project_3.ipynb
+           - project_3_no_yaml.ipynb
