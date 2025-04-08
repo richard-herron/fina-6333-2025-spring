@@ -93,7 +93,12 @@ book:
     - part: Week 13
       chapters:
         - herron_05_lecture.ipynb
-        - herron_05_practice.ipynb
+        - herron_05_practice_02.ipynb
+        - herron_05_practice_03.ipynb
+        - herron_05_practice_04.ipynb
+        - Monty_Hall_02.ipynb
+        - Monty_Hall_03.ipynb
+        - Monty_Hall_04.ipynb
     - part: Week 14
       chapters:
         - assessment_exam.qmd

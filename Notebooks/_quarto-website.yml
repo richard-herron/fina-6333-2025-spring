@@ -54,6 +54,7 @@ website:
       - section: Week 13
         contents: 
           - auto: "herron_05*.ipynb"
+          - auto: "Monty_Hall*.ipynb"
       - section: Week 14
         contents: 
           - assessment_exam.qmd
