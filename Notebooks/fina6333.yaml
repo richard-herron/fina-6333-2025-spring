@@ -6,6 +6,7 @@ dependencies:
   - python=3.12
   - jupyterlab
   - matplotlib
+  - nbconvert
   - numpy
   - openpyxl
   - otter-grader
@@ -16,3 +17,5 @@ dependencies:
   - statsmodels
   - yfinance
   - pip
+  - pip:
+      - playwright
