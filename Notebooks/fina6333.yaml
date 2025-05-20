@@ -5,8 +5,8 @@ channels:
 dependencies:
   - python=3.12
   - jupyterlab
+  - jupyter-ai
   - matplotlib
-  - nbconvert
   - numpy
   - openpyxl
   - otter-grader
